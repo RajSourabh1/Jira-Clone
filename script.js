@@ -118,10 +118,10 @@ function taskView(){
 function statusStyle(status){
   console.log(status)
   if(status=='not-started'){
-    return "background-color:rgb(206, 40, 11)";
+    return "background-color:rgb(206, 40, 11);";
 }
 else if(status=='in-progress'){
-    return "background-color:tomato";
+    return "background-color:tomato;";
 }
 else{
     return "background-color:rgb(6, 151, 28);";
@@ -137,7 +137,7 @@ function priorityStyle(priority){
       return "background-color:tomato;";
   }
   else{
-      return "background-color:rgb(206, 40, 11)";
+      return "background-color:rgb(206, 40, 11);";
   }
 }
 
